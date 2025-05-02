@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Product Page</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">MOTIONCUT</div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Product Section -->
+  <main class="product-container">
+    <div class="product-image">
+      <img src="https://i.postimg.cc/Z5YKwhdq/shopping.webp" alt="Product Image" />
+    </div>
+    <div class="product-details">
+      <h1>Wireless Headphones</h1>
+      <p class="description">
+        High-quality wireless headphones with noise cancellation and long battery life.
+      </p>
+      <p class="price">$99.99</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+  </main>
+
+  <!-- Reviews Section -->
+  <section class="reviews">
+    <h2>Customer Reviews</h2>
+    <p>⭐⭐⭐⭐☆ - Great sound quality and comfortable to wear!</p>
+    <p>⭐⭐⭐⭐⭐ - Excellent battery life. Worth the price.</p>
+  </section>
+
+  <!-- Related Products -->
+  <section class="related-products">
+    <h2>Related Products</h2>
+    <div class="product-card">
+      <img src="https://i.postimg.cc/s29kqBCd/download.jpg" alt="Related Product">
+      <p>Bluetooth Speaker</p>
+    </div>
+    <div class="product-card">
+      <img src="https://i.postimg.cc/gcSWG6XG/images.jpg" alt="Related Product">
+      <p>Smartwatch</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 MotionCut. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
